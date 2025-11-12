@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My VPS Test Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Welcome to My VPS!</h1>
+            <p>Your server is successfully hosting this website</p>
+        </header>
+        
+        <main>
+            <div class="card">
+                <h2>Server Information</h2>
+                <div id="server-info">
+                    <p><strong>Page Loaded:</strong> <span id="load-time"></span></p>
+                    <p><strong>Current Time:</strong> <span id="current-time"></span></p>
+                    <p><strong>User Agent:</strong> <span id="user-agent"></span></p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Test Interaction</h2>
+                <button id="click-btn" class="btn">Click Me!</button>
+                <p id="click-counter">Button clicked: 0 times</p>
+            </div>
+            
+            <div class="card">
+                <h2>Quick Links</h2>
+                <div class="links">
+                    <a href="https://httpd.apache.org/docs/2.4/getting-started.html" target="_blank">Apache Docs</a>
+                    <a href="https://nginx.org/en/docs/beginners_guide.html" target="_blank">Nginx Docs</a>
+                    <a href="https://www.digitalocean.com/community/tutorials" target="_blank">Server Tutorials</a>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Powered by your VPS | <span id="footer-year"></span></p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
